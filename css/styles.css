@@ -28,9 +28,9 @@ img {
 .container {
     width: 1158px;
     max-width: 1440px;
-    padding: 0 15px
+    padding: 0 15px;
     margin: 0 auto;
-        }
+ }
 
 
 .header {
@@ -57,6 +57,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-raleway {
@@ -66,7 +67,6 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.03;
-margin-right: 76px;
 }
 
 .page-nav-list {
@@ -76,6 +76,7 @@ margin-right: 76px;
     gap: 40px;
     align-items: center;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -176,8 +177,6 @@ cursor: pointer;
     padding: 120px 0;
 }
 
-.visually-hidden
-
 .section-one-list {
     display: flex;
     padding-left: 156px;
@@ -233,7 +232,7 @@ letter-spacing: 0.02;
 }
 
 .section-two {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 
@@ -255,6 +254,7 @@ padding-top: 120px;
 padding-bottom: 72px;
 max-width: 162px;
 margin: 0 auto;
+margin-bottom: 72px;
 }
 
 .section-two-menu {
@@ -265,7 +265,7 @@ margin: 0 auto;
 }
 
 .section-menu-page {
-    width: calc((100% - 24px * 3) / 4 ) ;
+    width: calc((100% - 72px) / 4 ) ;
     background-color: #FFFFFF;
 }
 
