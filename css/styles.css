@@ -84,6 +84,7 @@ padding: 24px 0;
 
 .page-nav-list-link {
     padding: 24px 0;
+    display: block;
 }
 
 .page-list-link {
