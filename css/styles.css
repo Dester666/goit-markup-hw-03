@@ -108,6 +108,12 @@ font-style: normal;
     padding-bottom: 24px;
 }
 
+.address-link-mail{ 
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
 .address-link-info {
 color: #434455; 
 font-family: Roboto;
@@ -179,6 +185,10 @@ cursor: pointer;
     padding: 120px 0;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .section-one-list {
     display: flex;
     padding-left: 156px;
@@ -187,7 +197,7 @@ cursor: pointer;
 }
 
 .section-one-iteams {
-    width: calc((100% - 72px)/4);
+    width: 264px;
 }
 
 .section-one-list-header {
@@ -267,7 +277,7 @@ margin-bottom: 72px;
 }
 
 .section-menu-page {
-    width: calc((100% - 72px)/4) ;
+    width: 264px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
