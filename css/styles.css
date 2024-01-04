@@ -36,7 +36,7 @@ img {
     letter-spacing: 0.03;
     text-transform: uppercase;
 }
- .conteiner {
+ .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -61,6 +61,7 @@ letter-spacing: 0.03;
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .logo-header{
@@ -90,8 +91,8 @@ letter-spacing: 0.02;
     gap: 40px;
 }
 
-.page-nav-colum{
-    padding: 24px 0;
+.page-nav-colum {
+    padding:24px 0;
 }
 
 .page-list-link:hover, 
@@ -128,15 +129,17 @@ letter-spacing: 0.02;
 }
 
 .section{
-
+    padding:188px 0;
+    background-color: #2E2F42;
+    width: 1158px;
+    margin: 0 auto;
 }
 
-.first-conteiner {
+.first-container {
     display: flex;
- background-color: #2E2F42;
- height: 600px; 
  justify-content: center;
  align-items: center;
+ flex-direction: column;
 }
 
 .section-header {
@@ -147,6 +150,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02; 
 max-width: 496px;
+display: flex;
 
 }
 
@@ -173,6 +177,11 @@ margin: 0 auto;
     cursor: pointer;
 }
 
+.section-one {
+    padding: 120px 0;
+    
+}
+
 .section-one-header {
     visibility: hidden;
 }
@@ -183,7 +192,7 @@ margin: 0 auto;
 }
 
 .section-one-list-colum {
-    width: calc((100% - 72px) / 4);
+    width:calc((100% - 72px) / 4);
 }
 
 .section-one-list-header {
@@ -231,6 +240,7 @@ letter-spacing: 0.02;
 
 .section-two {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .section-two-header {
@@ -246,11 +256,12 @@ margin-bottom: 72px;
 
 .section-two-menu {
     display: flex;
+    gap: 24px;
 }
 
 .section-two-menu-page {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width:calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
     margin: 0 auto;
 }
@@ -258,7 +269,7 @@ margin-bottom: 72px;
 .section-two-img
 
 .section-two-porfolio{
-    padding: 32px 0;
+    padding:32px 0;
 }
 
 .section-two-menu-header {
@@ -282,6 +293,8 @@ text-align: center;
 
 .section-free {
 background-color: #FFFFFF;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .section-free-header {
@@ -302,7 +315,7 @@ margin-bottom: 72px
 }
 
 .section-free-menu-page{
-    width: calc((100% - 48px) / 3);
+    width:calc((100% - 48px) / 3);
 }
 
 .section-free_page {
@@ -331,6 +344,7 @@ letter-spacing: 0.2;
 
 .footer {
     background-color:  #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-footer {
