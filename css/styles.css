@@ -207,7 +207,7 @@ margin: 0 auto;
 }
 
 .section-one-list-colum {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
 }
 
 .section-one-list-header {
@@ -278,7 +278,7 @@ margin-bottom: 72px;
 
 .section-two-menu-page {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     border-radius: 0px 0px 4px 4px; 
     margin: 0 auto;
 }
@@ -331,7 +331,7 @@ margin-bottom: 72px
 }
 
 .section-free-menu-page{
-    width:calc((100% - 48px) / 3);
+    width: 360px;
 }
 
 .section-free_page {
