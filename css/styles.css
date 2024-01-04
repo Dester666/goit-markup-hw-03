@@ -23,6 +23,8 @@ ul {
     }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -241,6 +243,8 @@ letter-spacing: 0.02;
 .section-two {
     background-color: #F4F4FD;
     padding: 120px 0;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .section-two-header {
@@ -266,7 +270,6 @@ margin-bottom: 72px;
     margin: 0 auto;
 }
 
-.section-two-img
 
 .section-two-porfolio{
     padding:32px 0;
@@ -345,6 +348,8 @@ letter-spacing: 0.2;
 .footer {
     background-color:  #2e2f42;
     padding: 100px 0;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .logo-footer {
